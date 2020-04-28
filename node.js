@@ -7,6 +7,7 @@ module.exports = {
   plugins: ['import-helpers'],
   extends: ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint', 'plugin:prettier/recommended'],
   rules: {
+    '@typescript-eslint/explicit-function-return-type': 'off',
     'import-helpers/order-imports': [
       'warn',
       {

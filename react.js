@@ -21,6 +21,8 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    'react/prop-types': 'off',
     'import-helpers/order-imports': [
       'warn',
       {
