@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-ts-recommended",
   "description": "An ESLint shareable config for NodeJS and React projects using Typescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Maycon Sousa <mayconfsousa@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/mayconfsousa/eslint-config-ts-recommended",
