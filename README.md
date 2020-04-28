@@ -4,13 +4,13 @@ An ESLint shareable config for NodeJS and React projects using Typescript
 
 ### Install
 
-#### Using `yarn`:
+- Using `yarn`:
 
 ```
 npx install-peerdeps --dev --yarn eslint-config-ts-recommended
 ```
 
-#### Using `npm`:
+- Using `npm`:
 
 ```
 npx install-peerdeps --dev eslint-config-ts-recommended
@@ -18,7 +18,7 @@ npx install-peerdeps --dev eslint-config-ts-recommended
 
 ### Usage
 
-#### Use with `React` projects:
+- Use with `React` projects:
 
 ```js
 // .eslintrc.js
@@ -28,7 +28,7 @@ module.exports = {
 };
 ```
 
-#### Use with `NodeJS` projects:
+- Use with `NodeJS` projects:
 
 ```js
 // .eslintrc.js
