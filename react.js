@@ -12,6 +12,7 @@ module.exports = {
       version: 'detect',
     },
   },
+  plugins: ['import-helpers'],
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
