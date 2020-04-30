@@ -22,7 +22,6 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
-    'react/prop-types': 'off',
     'import-helpers/order-imports': [
       'warn',
       {
@@ -31,5 +30,7 @@ module.exports = {
         alphabetize: { order: 'asc', ignoreCase: true },
       },
     ],
+    'react/prop-types': 'off',
+    'no-console': 'warn',
   },
 };

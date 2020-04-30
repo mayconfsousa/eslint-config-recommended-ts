@@ -16,5 +16,6 @@ module.exports = {
         alphabetize: { order: 'asc', ignoreCase: true },
       },
     ],
+    'no-console': 'warn',
   },
 };
