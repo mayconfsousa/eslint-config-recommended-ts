@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-ts-recommended",
   "description": "An ESLint shareable config for NodeJS and React projects using Typescript",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Maycon Sousa <mayconfsousa@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/mayconfsousa/eslint-config-ts-recommended",
@@ -17,6 +17,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "commit": "git-cz"
   },
   "peerDependencies": {
     "eslint": "^6.8.0",
@@ -39,11 +42,33 @@
     "prettier": "^2.0.5",
     "typescript": "^3.8.3"
   },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitizen": "^4.0.4",
+    "cz-conventional-changelog": "^3.1.0",
+    "husky": "^4.2.5"
+  },
   "prettier": {
     "semi": true,
     "trailingComma": "all",
     "singleQuote": true,
     "printWidth": 120,
     "tabWidth": 2
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
