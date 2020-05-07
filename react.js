@@ -37,7 +37,7 @@ module.exports = {
       },
     ],
     'react/prop-types': 'off',
-    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'no-console': 'warn',
     'object-shorthand': ['error', 'always'],
   },
 };

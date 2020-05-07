@@ -25,7 +25,7 @@ module.exports = {
         alphabetize: { order: 'asc', ignoreCase: true },
       },
     ],
-    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'no-console': 'warn',
     'object-shorthand': ['error', 'always'],
   },
 };
