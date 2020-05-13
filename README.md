@@ -25,6 +25,9 @@ npx install-peerdeps --dev eslint-config-ts-recommended
 
 module.exports = {
   extends: ['ts-recommended/react'],
+  parserOptions: {
+    project: './tsconfig.json'
+  }
 };
 ```
 
@@ -35,5 +38,8 @@ module.exports = {
 
 module.exports = {
   extends: ['ts-recommended/node'],
+  parserOptions: {
+    project: './tsconfig.json'
+  }
 };
 ```

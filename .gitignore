@@ -1,5 +1,5 @@
 node_modules/
 
-*-lock.json
-*-debug.log
+.DS_Store
+*.lock
 *-error.log
