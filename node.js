@@ -3,6 +3,7 @@ module.exports = {
   env: {
     es2020: true,
     node: true,
+    browser: true,
   },
   parserOptions: {
     sourceType: 'module',
