@@ -16,7 +16,7 @@ module.exports = {
       version: 'detect',
     },
   },
-  plugins: ['import-helpers', 'react', 'react-hooks', '@typescript-eslint', 'prettier'],
+  plugins: ['react', 'react-hooks', 'import-helpers', '@typescript-eslint', 'prettier'],
   rules: {
     'prettier/prettier': ['error'],
     'arrow-body-style': [
