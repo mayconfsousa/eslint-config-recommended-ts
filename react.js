@@ -194,26 +194,7 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'error',
     '@typescript-eslint/ban-types': 'error',
     camelcase: 'off',
-    '@typescript-eslint/naming-convention': [
-      'error',
-      {
-        selector: 'default',
-        format: ['camelCase'],
-      },
-      {
-        selector: 'variable',
-        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
-      },
-      {
-        selector: 'parameter',
-        format: ['camelCase'],
-        leadingUnderscore: 'allow',
-      },
-      {
-        selector: 'typeLike',
-        format: ['PascalCase'],
-      },
-    ],
+    '@typescript-eslint/naming-convention': 'off',
     '@typescript-eslint/consistent-type-assertions': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
     'no-array-constructor': 'off',
