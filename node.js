@@ -223,7 +223,7 @@ module.exports = {
         variables: true,
       },
     ],
-    '@typescript-eslint/no-var-requires': 'error',
+    '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/prefer-namespace-keyword': 'error',
     '@typescript-eslint/triple-slash-reference': 'error',
     'no-dupe-class-members': 'off',
