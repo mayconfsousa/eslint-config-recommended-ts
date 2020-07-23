@@ -34,5 +34,6 @@ module.exports = {
         alphabetize: { order: 'asc', ignoreCase: true },
       },
     ],
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
 };
