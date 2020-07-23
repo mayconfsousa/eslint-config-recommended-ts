@@ -7,13 +7,13 @@ An ESLint shareable config for NodeJS and React projects using Typescript
 - Using `yarn`:
 
 ```
-npx install-peerdeps --dev --yarn eslint-config-ts-recommended
+yarn add -D eslint prettier typescript eslint-config-ts-recommended
 ```
 
 - Using `npm`:
 
 ```
-npx install-peerdeps --dev eslint-config-ts-recommended
+npm install -D eslint prettier typescript eslint-config-ts-recommended
 ```
 
 ### Usage

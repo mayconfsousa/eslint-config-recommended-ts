@@ -1,6 +1,7 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   env: {
+    es6: true,
     node: true,
     browser: true,
   },
@@ -20,11 +21,10 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:react-hooks/recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
-  plugins: ['import-helpers'],
+  plugins: ['import-helpers', 'react-hooks'],
   rules: {
     'import-helpers/order-imports': [
       'warn',
@@ -38,6 +38,8 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-var-requires': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
     'react/display-name': 'off',
     'react/prop-types': 'off',
   },
