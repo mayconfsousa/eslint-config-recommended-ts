@@ -30,7 +30,7 @@ module.exports = {
       'warn',
       {
         newlinesBetween: 'always',
-        groups: ['/^react/', 'module', '/^~/', ['parent', 'sibling', 'index']],
+        groups: ['/^react/', '/^firebase/', '/^express/', 'module', '/^~/', ['parent', 'sibling', 'index']],
         alphabetize: { order: 'asc', ignoreCase: true },
       },
     ],
@@ -42,5 +42,8 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react/display-name': 'off',
     'react/prop-types': 'off',
+    'react/destructuring-assignment': ['warn', 'always'],
+    'react/no-array-index-key': 'warn',
+    'react/jsx-boolean-value': 'warn',
   },
 };

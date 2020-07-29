@@ -4,6 +4,7 @@
   "version": "1.0.33",
   "author": "Maycon Sousa <mayconfsousa@gmail.com>",
   "license": "MIT",
+  "main": "index.js",
   "homepage": "https://github.com/mayconfsousa/eslint-config-ts-recommended",
   "keywords": [
     "eslint",
