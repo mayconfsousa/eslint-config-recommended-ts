@@ -26,6 +26,7 @@ module.exports = {
   ],
   plugins: ['import-helpers', 'react-hooks'],
   rules: {
+    'no-console': 'warn',
     'import-helpers/order-imports': [
       'warn',
       {
@@ -45,5 +46,6 @@ module.exports = {
     'react/destructuring-assignment': ['warn', 'always'],
     'react/no-array-index-key': 'warn',
     'react/jsx-boolean-value': 'warn',
+    'react/self-closing-comp': 'warn',
   },
 };

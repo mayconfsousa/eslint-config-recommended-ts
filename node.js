@@ -17,6 +17,7 @@ module.exports = {
   ],
   plugins: ['import-helpers'],
   rules: {
+    'no-console': 'warn',
     'import-helpers/order-imports': [
       'warn',
       {
