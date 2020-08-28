@@ -22,7 +22,7 @@ module.exports = {
       'warn',
       {
         newlinesBetween: 'always',
-        groups: ['/^express/', 'module', '/^~/', '/^@/', ['parent', 'sibling', 'index']],
+        groups: ['/^express/', 'module', '/^~/', ['parent', 'sibling', 'index']],
         alphabetize: { order: 'asc', ignoreCase: true },
       },
     ],
