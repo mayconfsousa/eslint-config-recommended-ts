@@ -27,6 +27,7 @@ module.exports = {
   plugins: ['import-helpers', 'react-hooks'],
   rules: {
     'no-console': 'warn',
+    eqeqeq: 'warn',
     'import-helpers/order-imports': [
       'warn',
       {
