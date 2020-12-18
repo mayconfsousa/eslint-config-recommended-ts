@@ -1,12 +1,11 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   env: {
-    es6: true,
     node: true,
-    browser: true,
+    es2021: true,
   },
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 12,
     sourceType: 'module',
   },
   extends: [
@@ -19,6 +18,7 @@ module.exports = {
   rules: {
     'no-console': 'warn',
     eqeqeq: 'warn',
+    'object-shorthand': 'warn',
     'import-helpers/order-imports': [
       'warn',
       {
